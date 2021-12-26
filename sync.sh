@@ -1,6 +1,7 @@
-cd /home/andrei_dimitrascu_94/no-brainer/
-sudo git pull origin main
-sudo git add .
-sudo git commit -m "sync"
-sudo git push origin main
+git pull origin main
+git add .
+git commit -m "sync"
+whoami
+ls
+git push origin main
 
