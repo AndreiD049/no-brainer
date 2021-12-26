@@ -1,0 +1,7 @@
+/**/credentials.csv
+node_modules
+.vscode
+_del_node_modules
+hostingstart.html
+node_modules.tar.gz
+oryx-manifest.toml
