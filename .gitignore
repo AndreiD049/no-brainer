@@ -5,3 +5,5 @@ _del_node_modules
 hostingstart.html
 node_modules.tar.gz
 oryx-manifest.toml
+no-brainer/tiddlers/$__StoryList.tid
+**/*/*__StoryList*
