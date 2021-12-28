@@ -1,0 +1,10 @@
+created: 20211228071915940
+creator: AndreiD049
+modified: 20211228073353908
+modifier: AndreiD049
+title: $:/config/NewJournal/Text
+type: text/vnd.tiddlywiki
+
+<<todolist-ui caption:"!! Tasks" base:"Simple" width:60%>>
+
+!! Journal
