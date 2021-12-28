@@ -1,6 +1,6 @@
 created: 20211228182537894
 creator: AndreiD049
-modified: 20211228185321771
+modified: 20211228193204124
 modifier: AndreiD049
 title: Meta: Note naming convention
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 !! General Rules
 
 * Capitalization. All tiddler titles should have only the first letter and nouns capitalized. For example `Tools for editing Html` is preferred instead of `Tools for Editing HTML`. Acronyms like `Html`, or `Sap` should also have only the first letter capitalized
-* Plurals should not be used in tags, and only when strictly necessary in titles. For example `How to write a pure function` instead of `How to write a pure function`
+* Plurals should not be used in tags, and only when strictly necessary in titles. For example `How to write a pure function` instead of `How to write pure functions`
 * Punctuation should be removed from titles
 * If numbers are small (like less than 100) should be spelled out. For example `Nine circles of hell` instead of `9 circles of hell`
 * Avoid using namespaces (except for cases specified below). Instead, prefer linking and tagging the notes
