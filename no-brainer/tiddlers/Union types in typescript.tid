@@ -1,0 +1,9 @@
+created: 20220102121844264
+creator: AndreiD049
+modified: 20220102121904610
+modifier: AndreiD049
+tags: Typescript
+title: Union types in typescript
+type: text/vnd.tiddlywiki
+
+Union types is a way to specify that a value can be any one of union members types. Example `string | number` type implies that value is either `string` or `number`.
