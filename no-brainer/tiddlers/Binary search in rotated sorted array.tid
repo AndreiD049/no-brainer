@@ -1,11 +1,9 @@
 created: 20220102165936278
 creator: AndreiD049
-draft.of: New Tiddler
-draft.title: Binary search in rotated sorted array
-modified: 20220102165958955
+modified: 20220102170052742
 modifier: AndreiD049
 tags: Algorithms
-title: Draft of 'New Tiddler' by AndreiD049
+title: Binary search in rotated sorted array
 type: text/vnd.tiddlywiki
 
 Source: https://leetcode.com/problems/search-in-rotated-sorted-array/
@@ -20,18 +18,19 @@ Given the array nums after the possible rotation and an integer target, return t
 You must write an algorithm with O(log n) runtime complexity.
 ```
 
-## Solution
+!! Solution
 
 Again, we see the array is sorted and that we need to solve the problem in `O(log n)` time.
 This almost always means binary-search, so we need to have a left, right, and middle pointer.
 The key concept to understand, when we take a mid pointer, which portion is sorted relative to this pointer, left or right?
 
-![demonstration](/assets/images/2021-11-26-14-26-50.png)
+[img[2021-11-26-14-26-50.png]]
 
 This is easy to check if we know what is the leftmost value of the array (and we know it). If `left <= mid` then left part is sorted, else the right part is sorted.
 Now that we know which part is sorted, we can check if our `target` is within that sorted part. If it is, then discard the other portion, and vice versa.
 
-![example 2](/assets/images/2021-11-26-14-30-48.png)
+[img[2021-11-26-14-30-48.png]]
+
 In above example, target was not in our sorted (left) part, so we just discarded it and continue the search in the remaining portion.
 
 ```python
