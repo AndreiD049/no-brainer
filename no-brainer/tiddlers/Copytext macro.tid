@@ -1,0 +1,13 @@
+created: 20211231083900111
+modified: 20211231124156120
+tags: $:/tags/Macro
+title: Copytext macro
+type: text/vnd.tiddlywiki
+
+\define copy-text(text)
+<$button class="tc-btn-invisible" message="tm-copy-to-clipboard"
+param="$text$" style="text-align: justify">
+<code><$text text="$text$"/> {{$:/core/images/copy-clipboard}}
+</code>
+</$button>
+\end
