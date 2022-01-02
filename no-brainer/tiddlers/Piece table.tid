@@ -1,6 +1,6 @@
 created: 20220102173215036
 creator: AndreiD049
-modified: 20220102173232985
+modified: 20220102180917018
 modifier: AndreiD049
 tags: [[Data Structure]]
 title: Piece table
@@ -14,9 +14,9 @@ Piece table is an append only data structure, meaning it doesn't delete anything
 
 It consists of 3 pieces:
 
-- original buffer (readonly)
-- add buffer (where we append what user has inserted)
-- array of pieces, that keeps track of which pieces from which buffers are currently shown
+* original buffer (readonly)
+* add buffer (where we append what user has inserted)
+* array of pieces, that keeps track of which pieces from which buffers are currently shown
 
 ```json
 {
