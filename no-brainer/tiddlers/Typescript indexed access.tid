@@ -1,9 +1,9 @@
-created: 20220102125937872
+created: 20220102131250960
 creator: AndreiD049
-modified: 20220102131411658
+modified: 20220102131312399
 modifier: AndreiD049
 tags: Typescript
-title: Typescript property modifiers
+title: Typescript indexed access
 type: text/vnd.tiddlywiki
 
 Indexed access types are used similarly to property access in [[Javascript]], but in `type context`.

@@ -1,24 +1,22 @@
 created: 20220102125742501
 creator: AndreiD049
-draft.of: Typescript classes
-draft.title: Typescript classes
-modified: 20220102125829830
+modified: 20220102130131095
 modifier: AndreiD049
 tags: Typescript
-title: Draft of 'Typescript classes' by AndreiD049
+title: Typescript classes
 type: text/vnd.tiddlywiki
 
 Source: https://www.typescriptlang.org/docs/handbook/2/classes.html
 
 Classes in [[Typescript]] can have the following properties:
 
-## Access modifiers
+!! Access modifiers
 
 Access modifiers are `public, protected, private, readonly` and generally work the same way as in Java or PHP.
 
-## Parameters defined in constructor
+!! Parameters defined in constructor
 
-Instance properties can be defined directly in constructor by specifying the  `public, protected, private, readonly`:
+Instance properties can be defined directly in constructor by specifying the property modifiers `public, protected, private, readonly`:
 
 ```ts
 class Params {
@@ -32,9 +30,9 @@ class Params {
 }
 ```
 
-## this parameter
+!! this parameter
 
-To handle the complicated logic of [[lang.javascript]] regarding [[lang.javascript.this]] reference, in typescript you can specify a first parameter `this`. (it will be removed after compilation). It will check that context in which the method is called is correct.
+To handle the complicated logic of [[Javascript]] regarding [[Javascript this]] reference, in typescript you can specify a first parameter `this`. (it will be removed after compilation). It will check that context in which the method is called is correct.
 
 ```ts
 class MyClass {
@@ -53,10 +51,10 @@ const g = c.getName;
 console.log(g());
 ```
 
-## Static members
+!! Static members
 
 Classes can have `static` properties and methods which can be inherited by other classes. Static properties and methods are not bound to a class instance, but to the class itself.
 
-## Inheritance and interfaces
+!! Inheritance and interfaces
 
 Inheriting from a base class is done using `extends` keyword, and interfaces are `implemented`. Multiple interfaces can be implemented at once `class Employee implements Person, Mamal {...`.
