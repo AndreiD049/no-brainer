@@ -1,6 +1,10 @@
 created: 20220102122750307
 creator: AndreiD049
-modified: 20220102122750307
+modified: 20220103201313168
 modifier: AndreiD049
 title: Javascript
 type: text/vnd.tiddlywiki
+
+JS DOM manipulations:
+
+# `data-` attributes [[Data attribute]]
