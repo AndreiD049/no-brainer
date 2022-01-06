@@ -1,6 +1,6 @@
 created: 20220105143903496
 creator: AndreiD049
-modified: 20220106204007449
+modified: 20220106213956338
 modifier: AndreiD049
 tags: 
 title: Rust
@@ -10,14 +10,8 @@ Resource to check out:
 
 * https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust
 * https://www.rust-lang.org/learn
+* https://www.freecodecamp.org/news/rust-in-replit/
 
 ---
 
-@@background-color: #2E3440;
-@@padding: .2em 1em;
-@@cursor: pointer;
-<details>
-<summary>Repl</summary>
-{{ Rust repl }}
-</details>
-@@
+<$macrocall $name=details sum="Repl" content={{{ [[Rust repl]get[text]] }}} />
