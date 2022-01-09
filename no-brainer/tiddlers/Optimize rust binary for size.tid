@@ -1,6 +1,6 @@
 created: 20220109074229869
 creator: AndreiD049
-modified: 20220109074305318
+modified: 20220109114226439
 modifier: AndreiD049
 tags: Rust Linux
 title: Optimize rust binary for size
@@ -11,3 +11,5 @@ By default on Linux and macOS, symbol information is included in the compiled .e
 ```sh
 $ strip target/release/min-sized-rust
 ```
+
+For more possibilities, see: https://github.com/johnthagen/min-sized-rust
