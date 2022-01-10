@@ -1,6 +1,6 @@
 created: 20220109141221663
 creator: AndreiD049
-modified: 20220109141714949
+modified: 20220110190321291
 modifier: AndreiD049
 tags: Rust
 title: Function return value
@@ -26,4 +26,6 @@ Explicitly returning a value from a function is done using `return` keyword
 fn sum(a: i32,  b: i32) -> i32 {
     return a + b;
 }
-``` 
+```
+
+Functions that do not return anything, implicitly return [[Unit type]]

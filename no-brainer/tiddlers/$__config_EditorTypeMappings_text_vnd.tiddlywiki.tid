@@ -1,8 +1,8 @@
 created: 20211227142805030
 creator: AndreiD049
-modified: 20211228105936710
+modified: 20220110195755052
 modifier: AndreiD049
 title: $:/config/EditorTypeMappings/text/vnd.tiddlywiki
 type: text/vnd.tiddlywiki
 
-text
+codemirror
