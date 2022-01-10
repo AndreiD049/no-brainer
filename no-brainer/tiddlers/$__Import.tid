@@ -4,5 +4,6 @@ type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[$:/plugins/tiddlywiki/codemirror-mode-css]]
+# [[$:/plugins/tiddlywiki/codemirror-autocomplete]]
+# [[$:/plugins/tiddlywiki/codemirror-keymap-vim]]
 # [[$:/plugins/tiddlywiki/codemirror-search-replace]]
