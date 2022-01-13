@@ -1,6 +1,6 @@
 created: 20220105143903496
 creator: AndreiD049
-modified: 20220109174346114
+modified: 20220113103622544
 modifier: AndreiD049
 tags: 
 title: Rust
@@ -14,7 +14,7 @@ Resource to check out:
 * https://youtube.com/c/JonGjengset
 * https://dystroy.org/blog/how-not-to-learn-rust/
 * https://cheats.rs/
-
+* https://learning-rust.github.io/docs/d1.code_organization.html
 ---
 
 <$macrocall $name=details sum="Repl" content={{{ [[Rust repl]get[text]] }}} />
