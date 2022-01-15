@@ -1,6 +1,6 @@
 created: 20220102120555257
 creator: AndreiD049
-modified: 20220102120623714
+modified: 20220115213924918
 modifier: AndreiD049
 tags: Typescript
 title: Add typescript to webpack
@@ -19,6 +19,7 @@ rules: [
 			}
 		]
 	}
+]
 ```
 
 You might want to add this to your `webpack.config.js` as well:

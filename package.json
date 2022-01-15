@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tiddlywiki no-brainer --listen root-tiddler=$:/core/save/lazy-all port=8080 host=0.0.0.0 credentials=credentials.csv 'readers=(anon)' 'writers=(authenticated)'"
+    "start": "tiddlywiki no-brainer --listen port=8080 host=0.0.0.0 credentials=credentials.csv 'readers=(anon)' 'writers=(authenticated)'"
   },
   "author": "",
   "license": "ISC",
