@@ -1,6 +1,6 @@
 created: 20220105143903496
 creator: AndreiD049
-modified: 20220113103622544
+modified: 20220119172152845
 modifier: AndreiD049
 tags: 
 title: Rust
@@ -16,5 +16,3 @@ Resource to check out:
 * https://cheats.rs/
 * https://learning-rust.github.io/docs/d1.code_organization.html
 ---
-
-<$macrocall $name=details sum="Repl" content={{{ [[Rust repl]get[text]] }}} />
