@@ -1,6 +1,6 @@
 created: 20220120171248359
 creator: AndreiD049
-modified: 20220120172317847
+modified: 20220130154621843
 modifier: AndreiD049
 tags: Windows Recipe
 title: Create link in powershell
@@ -20,9 +20,9 @@ There are 2 types of files in windows, soft and hard.
 
 # Create hard link for a file
 
-> New-Item -ItemType HardLink -Path "PathWhereLinkShouldBeCreated" -Targe "Target"
+> New-Item -ItemType HardLink -Path "PathWhereLinkShouldBeCreated" -Target "Target"
 
 # Create hard link for a folder (junction point)
  
-> New-Item -ItemType Junction -Path "PathWhereLinkShouldBeCreated" -Targe "Target"
+> New-Item -ItemType Junction -Path "PathWhereLinkShouldBeCreated" -Target "Target"
 ```
